@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="shortcut icon" type="image/jpg" href="img/SASSfavicon.png">
+  <title>Softwarehouse</title>
+</head>
+<body>
+
+  <img id="cover" src="img/hardware2.jpg"></img>
+  <video src="video/video.mp4" autoplay muted loop id="myVideo"></video>
+  
+  <header>
+    <div class="menu-btn">
+      <span class="menu-btn__burger"></span>
+    </div>
+
+    <nav class="nav">
+      <ul class="menu-nav">
+        <li class="menu-nav__item active">
+          <a href="index.html" class="menu-nav__link">
+            Home
+          </a>
+        </li>
+        <li class="menu-nav__item">
+          <a href="pages/about.html" class="menu-nav__link">
+            About
+          </a>
+        </li>
+        <li class="menu-nav__item">
+          <a href="pages/projects.html" class="menu-nav__link">
+            Projects
+          </a>
+        </li>
+        <li class="menu-nav__item">
+          <a href="pages/contact.html" class="menu-nav__link">
+            Contact
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="home">
+      <div class="text">
+      <h2>Greetings from</h2><br>
+      <h1 class="home__name">
+        Soft<span class="home__name--last">warehouse</span>!!
+      </h1></div>
+      <h3><br>
+        Web Develoment, Design & Programming:<br><br>
+        Our team of professionals can handle your every software need.<br><br>
+        Let us design your SOFTWARE, WEBSITE, or API!
+      </h3>
+
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/christopher-westfall-26b668200/" target="_blank">
+          <i class="fab fa-linkedin fa-2x"></i>
+        </a>
+        <a href="https://github.com/spacemanCRIFF?tab=repositories" target="_blank">
+          <i class="fab fa-github fa-2x"></i>
+        </a>
+        <a href="https://twitter.com/spacemanCRIFF" target="_blank">
+          <i class="fab fa-twitter fa-2x"></i>
+        </a>
+        <a href="https://spacemancriff.github.io/SASS_Softwarehouse_Site/pages/resumePDF.html" target="_blank"">
+          <i class="fas fa-phone-square-alt fa-2x"></i>
+        </a>
+      </div>
+
+      <footer>&copy; Copyright 2022</footer>
+    </section>
+  </main>
+
+    <style>
+      .home{
+        margin-top: -25vh;
+      }
+      #myVideo{
+        margin-top: -90vh;
+      }
+      body {
+      margin-top: 0vh;
+      position: fixed;
+      }
+      #cover{
+        display: flex;
+        width: 100vw;
+        height: 50vh;
+        overflow: hidden;
+        border-bottom: 1px solid white;
+      }
+      h2 {
+        font-weight: 700;
+        color: black;
+        text-shadow: 1px 1px white;
+      }
+      h3 {
+        margin-top: 2.5rem;
+        font-weight: 500;
+        font-size: 2rem;
+        color: white;
+        text-shadow: 1px 1px #0000ff;
+      }
+    </style>
+
+  <script src="https://kit.fontawesome.com/6d2ea823d0.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
